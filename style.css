@@ -63,7 +63,7 @@ header:hover {
 }
 
 body {
-    background-image: url('https://github.com/Alephantom/ALB_Projects/blob/main/Background.jpg?raw=true');
+    background-image: url('./Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -108,6 +108,8 @@ h3 {
 
 footer {
     width: 100%;
+    position: fixed;
+    bottom: 0;
     z-index: 1;
     background:
     rgba( 255, 255, 255, 0.3 );
