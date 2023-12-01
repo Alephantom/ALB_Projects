@@ -21,9 +21,10 @@ header {
 
 header:hover {
     backdrop-filter:
-    blur( 10px );
+    blur( 50px );
     -webkit-backdrop-filter:
-    blur( 10px );
+    blur( 50px );
+    transition: 0.3s;
 }
 
 .navigation-bar {
@@ -110,7 +111,6 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    z-index: 1;
     background:
     rgba( 255, 255, 255, 0.3 );
     backdrop-filter:
