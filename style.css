@@ -1,0 +1,120 @@
+
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    background:
+    rgba( 255, 255, 255, 0.3 );
+    box-shadow:
+    0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter:
+    blur( 4px );
+    -webkit-backdrop-filter:
+    blur( 4px );
+    border:
+    1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+header:hover {
+    backdrop-filter:
+    blur( 10px );
+    -webkit-backdrop-filter:
+    blur( 10px );
+}
+
+.navigation-bar {
+    text-align: center;
+}
+
+.navigation-bar img {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 60px;
+    float: left;
+}
+
+.navigation-bar ul {
+    margin: 0px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    list-style-type: none; 
+}
+.navigation-bar li {
+    display: inline-block;
+    text-align: center;
+    margin-top:  30px;
+}
+
+.navigation-bar a {
+    color: #864242;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 35px;
+    font-family: 'Garamond', sans-serif;
+    font-weight: 900;
+}
+
+body {
+    background-image: url('https://github.com/Alephantom/ALB_Projects/blob/main/Background.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+h1 {
+  font-family: 'Garamond', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: #864242;
+  padding: 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #864242;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    color: #563232;
+}
+
+.home {
+    margin: 200px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur (2px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+footer {
+    width: 100%;
+    z-index: 1;
+    background:
+    rgba( 255, 255, 255, 0.3 );
+    backdrop-filter:
+    blur( 4px );
+    -webkit-backdrop-filter:
+    blur( 4px );
+    border:
+    1px solid rgba( 255, 255, 255, 0.18 );
+}
